@@ -11,7 +11,7 @@ ESPECIALIDADES = [
     ('PEDIATRIA', 'Pediatria'),
 ]
 
-# Formulário do Médico (usado para cadastro e edição)
+# Formulário de Médico (usado para cadastro e edição)
 class MedicoForm(forms.ModelForm):
     # Troca o CharField padrão por um <select> com opções fixas
     especialidade = forms.CharField(
